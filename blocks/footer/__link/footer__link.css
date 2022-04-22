@@ -5,6 +5,12 @@
   color: #FFFFFF;
   text-decoration: none;
   display: block;
+  transition:  0.2s ease-in;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+  transition:  0.2s ease-in;
 }
 
 @media screen and (max-width: 767px) {

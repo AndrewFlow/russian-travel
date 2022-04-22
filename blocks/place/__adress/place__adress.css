@@ -5,4 +5,10 @@
   text-decoration-line: underline;
   color: #FFFFFF;
   cursor: pointer;
+  transition:  0.2s ease-in;
+}
+
+.place__adress:hover {
+  opacity: 0.8;
+  transition:  0.2s ease-in;
 }

@@ -5,9 +5,15 @@
   text-decoration-line: none;
   color: #fff;
   margin-right: 18px;
+  transition:  0.2s ease-in;
 }
 .header__link:last-child {
   margin: 0;
+}
+
+.header__link:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in;
 }
 
 @media screen and (max-width: 767px) {
